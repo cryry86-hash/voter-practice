@@ -11,7 +11,7 @@ sys.stdout.reconfigure(line_buffering=True)
 FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfbW3Wn_DXLmdU70mRslwLzkRQTTVBeVDIrft7NMbxoQupoDg/formResponse"
 ENTRY_ID = "entry.735219103"
 CHOICE_VALUE = "Kokushibo"
-TARGET_VOTES = 1000             # Capped at 100,000 votes per run
+TARGET_VOTES = 100000             # Capped at 100,000 votes per run
 CONCURRENT_LIMIT = 12             # Smooth rate to prevent HTTP 429 errors
 # ==============================================================================
 
